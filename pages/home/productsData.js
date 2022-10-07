@@ -1,7 +1,7 @@
 const products = [
   {
     title: "Magnetite",
-    category: 1,
+    category: ["Reggae", "Rock", "Mpb"],
     price: 89.0,
     img: "../../assets/img/1.jpg",
     band: "Scalene",
@@ -10,7 +10,7 @@ const products = [
   },
   {
     title: "Acabou o Chorare",
-    category: 2,
+    category: ["Reggae", "Rock"],
     price: 66.0,
     img: "../../assets/img/2.jpg",
     band: "Novos Baianos",
@@ -19,7 +19,7 @@ const products = [
   },
   {
     title: "Nirvana Discografia",
-    category: 3,
+    category: ["Rock"],
     price: 50.0,
     img: "../../assets/img/3.jpg",
     band: "Nirvava",
@@ -28,7 +28,7 @@ const products = [
   },
   {
     title: "Both Sides",
-    category: 4,
+    category: ["Pop", "Baião"],
     price: 22.0,
     img: "../../assets/img/4.jpg",
     band: "Phil Collins",

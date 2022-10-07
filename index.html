@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles/backgroud.css" />
+    <link rel="stylesheet" href="./styles/positions.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <title>Open Music</title>
+  </head>
+  <body class="flex itens-center just-center">
+
+    <main>
+      <div class="flex itens-center between marg-bottom-head marg-top">
+        <h1>Open Music</h1>
+        <button id="darkMode">
+          <img id="dmIcon" src="./assets/img/moon.svg" alt="">
+        </button>
+      </div>
+
+      <section>
+        <h3>Gênero Musical</h3>
+        <ul class="flex wrap gap marg-top">
+          <button class="but-generos">Todos</button>
+          <button class="but-generos">Pop</button>
+          <button class="but-generos">Mpb</button>
+          <button class="but-generos">Forró</button>
+          <button class="but-generos">Samba</button>
+          <button class="but-generos">Baião</button>
+          <button class="but-generos">Rap</button>
+          <button class="but-generos">Hip-Hop</button>
+          <button class="but-generos">Rock</button>
+          <button class="but-generos">Reggae</button>
+          <button class="but-generos">Country</button>
+          <button class="but-generos">Gospel</button>
+        </ul>
+      </section>
+      <div>
+        <div class="flex between marg-top marg-bottom">
+          <h3>Definir preço</h3>
+          <div class="flex">
+            <p>Até R$</p>
+            <input id="value" class="contador-valor" type="number">
+          </div>
+        </div>
+        <div class="sliderContainer">
+          <input id="my-range" class="myRange" type="range" min="0" max="1000" value="1">
+        </div>
+      </div>
+
+      <section>
+        <h2>Albuns Encontrados</h2>
+        <div>
+          <ul id="main-list" class="flex wrap between gap marg-top">
+          <!--  <li class="cards-tela ">
+              <img src="../../assets/img/1.jpg" alt="">
+              <div class=" flex colum wrap gap padding info-cards">
+                <div class="flex gap">
+                  <p>Scalene</p>
+                  <p>2017</p>
+                </div>
+                <h3>Magnetite</h3>
+              </div>
+              <div
+              class="flex between padding">
+                <p class="price">R$ 70.00</p>
+                <button class="but-comprar">Comprar</button>
+              </div>
+            </li>    -->      
+          </ul>
+        </div>
+      </section>
+    </main>
+
+
+
+    <script src="./scripts/theme.js"></script>
+    <script src="./pages/home/productsData.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

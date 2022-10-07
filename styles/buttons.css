@@ -1,0 +1,27 @@
+.but-generos{
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-2);
+    padding: 0px 0.5rem;
+    border-radius: var(--radius-1);
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 2rem;
+}
+.but-comprar{
+    height: 2rem;
+    padding: 0px 0.5rem;
+    color: var(--color-grey-2);
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: var(--color-grey-7);
+    border-radius: var(--radius-1);
+    border: none;
+}
+#darkMode{
+    border-radius: 100%;
+    border: none;
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-2);
+    padding: 1rem;
+}

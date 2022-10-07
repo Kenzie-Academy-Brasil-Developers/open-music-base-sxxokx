@@ -1,0 +1,43 @@
+.flex{
+    display: flex;
+}
+.itens-center{
+    align-items: center;
+}
+.just-center{
+    justify-content: center;
+}
+.between{
+    justify-content: space-between;
+}
+.gap{
+    gap: 1rem;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.colum{
+    flex-direction: column;
+}
+.padding{
+    padding: 1rem;
+}
+.margin{
+    margin: 1rem;
+}
+.marg-top{
+    margin-top: 2rem;
+}
+.marg-bottom{
+    margin-bottom: 2rem;
+}
+.marg-bottom-head{
+    margin-bottom: 4rem;
+}
+
+.padding-sides{
+    padding: 1rem;
+}
+.marg-left{
+    margin-left: 1rem;
+}
